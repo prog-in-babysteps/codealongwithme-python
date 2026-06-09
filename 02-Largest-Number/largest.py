@@ -1,12 +1,15 @@
-num = int(input("No. of Inputs: "))
+# Find the Largest Number
+
+num_input = int(input("No. of Inputs: "))
+
 num_list = []
-for i in range(num):
-    x = int(input())
-    num_list.append(x)
+for i in range(num_input):
+    num = int(input())
+    num_list.append(num)
 
 largest_num = num_list[0]
-for element in num_list[1:]:
-    if element > largest_num:
-        largest_num = element
+for num in num_list[1:]:
+    if num > largest_num:
+        largest_num = num
 
 print(f"Largest Number is {largest_num}")
