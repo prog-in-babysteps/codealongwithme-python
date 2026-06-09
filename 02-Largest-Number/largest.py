@@ -1,4 +1,4 @@
-num = int(input())
+num = int(input("No. of Inputs: "))
 num_list = []
 for i in range(num):
     x = int(input())
