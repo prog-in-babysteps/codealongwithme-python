@@ -1,4 +1,4 @@
-# Find the Largest Number
+# Find the SecondLargest Number
 num_input = int(input("No. of Inputs: "))
 
 num_list = []
